@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'HYStoreKit_Example' do
+  pod 'HYStoreKit', :path => '../'
+
+  target 'HYStoreKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
