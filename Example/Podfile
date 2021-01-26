@@ -2,6 +2,7 @@ use_frameworks!
 
 platform :ios, '8.0'
 
+project '/Volumes/Transcend/github/HYStoreKit/Example/HYStoreKit.xcodeproj'
 target 'HYStoreKit_Example' do
   pod 'HYStoreKit', :path => '../'
 
